@@ -1,0 +1,48 @@
+:root {
+    --orange: #ffa601;
+    --white: #ffffff;
+    --black: #000000;
+  }
+  * {
+    color: var(--fontColor);
+    font-family: helvetica;
+  }
+  body {
+      background: var(--bg);
+  }
+ul{
+    font-family: Helvetica,
+}
+li {
+    list-style: circle;
+  }
+  
+  .list {
+    list-style: square;
+  }
+  
+  .btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 60px;
+    border-radius: 40%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
+  .btn:focus { outline-style: none; }
+  .light-theme {
+    --bg: var(--orange);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+  }
+  
+  .dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--orange);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+  }
