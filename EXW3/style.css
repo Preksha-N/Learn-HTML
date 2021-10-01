@@ -1,0 +1,22 @@
+
+.c1{
+    background-color: blue;
+    margin-top: 0%;
+    margin-left: 89px;
+    font-family: monospace;
+    color: thistle;
+    
+}
+.bg{
+    background-image: url('smiley.png');
+    height: 270px;
+    margin-top: 30px;
+    color: violet;
+}
+#nonrep{
+    background-image: url('smiley.png');
+    color: violet;
+    background-repeat: no-repeat;
+    height: 225px;
+}
+
