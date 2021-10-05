@@ -19,4 +19,20 @@
     background-repeat: no-repeat;
     height: 225px;
 }
+.tab{
+   width: 600px;
+   border: sandybrown;
 
+}
+table ,th, td {
+   border: 1px solid black; 
+   border-radius: 70px;
+}
+td{
+    text-align: center;
+}
+.col{
+    width: 600px;
+    border-collapse: collapse;
+    
+}
